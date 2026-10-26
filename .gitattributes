@@ -1,2 +1,5 @@
+# Use LF for all text files; Git detects binary files automatically.
+* text=auto eol=lf
+
 # Force LF line endings, needed for Docker to work on Windows
 *.sh text eol=lf

@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Ph.D. Candidate at Shanghai Jiao Tong University
+subtitle: Ph.D. Candidate at Shanghai Jiao Tong University
 
 profile:
   align: right
