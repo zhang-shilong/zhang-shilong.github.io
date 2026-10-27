@@ -3,9 +3,9 @@ module.exports = {
   css: ["_site/assets/css/*.css"],
   output: "_site/assets/css/",
   skippedContentGlobs: ["_site/assets/**/*.html"],
+  // Keep the library's original production appearance; position is set inline.
+  blocklist: ["back-to-top"],
   safelist: [
-    // The external back-to-top script creates this element after page load.
-    "back-to-top",
     "collapse",
     "collapsing",
     "show",
