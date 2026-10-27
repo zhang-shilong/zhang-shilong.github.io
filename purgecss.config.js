@@ -4,6 +4,8 @@ module.exports = {
   output: "_site/assets/css/",
   skippedContentGlobs: ["_site/assets/**/*.html"],
   safelist: [
+    // The external back-to-top script creates this element after page load.
+    "back-to-top",
     "collapse",
     "collapsing",
     "show",
