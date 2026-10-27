@@ -220,16 +220,18 @@
           {%- if entry.award_name %}{{ entry.award_name }}{% else %}Awarded{% endif -%}
         </a>
       {% endif %}
-      {% if entry.abstract %}
-        <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
-      {% endif %}
       {% if entry.key == 'zhang2026subtelomeric' %}
-        <span
+        <a
+          href="https://www.cell.com/consortium/telomere-to-telomere"
           class="btn btn-sm z-depth-0"
-          style="color: var(--global-text-color); border: 1px solid var(--global-text-color); padding: 0.25rem 1rem; margin-left: 0; cursor: default"
+          role="button"
+          style="color: var(--global-text-color); border: 1px solid var(--global-text-color); padding: 0.25rem 1rem; margin-left: 0"
         >
           Special issue: T2T consortium
-        </span>
+        </a>
+      {% endif %}
+      {% if entry.abstract %}
+        <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
       {% endif %}
       {% if entry.doi %}
         <a href="https://doi.org/{{ entry.doi }}" class="doi btn btn-sm z-depth-0" role="button">DOI</a>
