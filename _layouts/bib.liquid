@@ -220,11 +220,6 @@
           {%- if entry.award_name %}{{ entry.award_name }}{% else %}Awarded{% endif -%}
         </a>
       {% endif %}
-      {% if entry.key == 'zhang2026subtelomeric' %}
-        <a href="https://www.cell.com/consortium/telomere-to-telomere" class="btn btn-sm z-depth-0" role="button" style="cursor: pointer">
-          Special issue: T2T consortium
-        </a>
-      {% endif %}
       {% if entry.abstract %}
         <a class="abstract btn btn-sm z-depth-0" role="button" style="cursor: pointer">Abstract</a>
       {% endif %}
@@ -298,6 +293,11 @@
       {% endif %}
       {% if entry.website %}
         <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button" style="cursor: pointer">Website</a>
+      {% endif %}
+      {% if entry.key == 'zhang2026subtelomeric' %}
+        <a href="https://www.cell.com/consortium/telomere-to-telomere" class="btn btn-sm z-depth-0" role="button" style="cursor: pointer">
+          Special issue: T2T Consortium
+        </a>
       {% endif %}
     </div>
     {% if site.enable_publication_badges %}
