@@ -27,5 +27,5 @@ overrides:
     gem_version: 1.0.15
     upstream_path: assets/js/common.js
     upstream_sha256: 89e65df12a3473705b488338af00c08f4cf947e59dee22748afc1c3a1fcb99fe
-    local_sha256: e5a941625527b5447bd87831431bf67904f7a83adf81fe26997b67f19e1fe3fb
-    acknowledged_at: '2026-10-27'
+    local_sha256: 0c3da0b74743e399f7ede3020f089e683fc7d8c4bd307de35904f68444725c56
+    acknowledged_at: '2026-10-30'

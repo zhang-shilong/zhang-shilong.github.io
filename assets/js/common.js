@@ -1,4 +1,10 @@
 document.addEventListener("DOMContentLoaded", () => {
+  const searchLabel = document.querySelector("#search-toggle .nav-link");
+  searchLabel?.childNodes.forEach((node) => {
+    if (node.nodeType === Node.TEXT_NODE) {
+      node.remove();
+    }
+  });
   const toggleSpecs = [
     { trigger: "a.abstract", target: ".abstract.hidden" },
     { trigger: "a.award", target: ".award.hidden" },
